@@ -1,6 +1,6 @@
 # HWQcmClean
 HUAWEI QUALCOMM PROCESSER CLEAN MAGISK MODULE<br>
-English WIKI：[Please click here](https://github.com/Cirrest/HWQcmClean/blob/main/README_EN.md)
+English Wiki：[Please click here](https://github.com/Cirrest/HWQcmClean/blob/main/README_EN.md)
 
 该模块旨在安全停用华为的PowerGenieEngine、iaware、Aps内服务和调度配置(并非简单粗暴停用该应用，直接停用会导致硬件电压配给异常、系统突发掉帧等问题)，并且利用自制调度服务从系统底层层面关闭华为系统调度，方便用户使用第三方骁龙调度，避免与官方调度冲突引起争夺控制权限、异常耗电、卡顿等问题。
 
