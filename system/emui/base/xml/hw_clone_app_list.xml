@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AppClone>
+<!--  菊花のAPP分身白名单-->
+<!-- 您可以在这里添加APP包名以达到多开目的 -->
+<!-- 少刷短视频，不要虚度光阴，多充充电涨涨知识。 
+-来自作者的忠告建议 -->
+<!--  都是纯手打的应用列表 TAT  -->
+
+<!-- 格式如下:
+
+	<package name="应用包名"/> 
+	
+	-->
+	
+<!-- List By Cirrest -->
+
+  <!-- 双开应用列表 -->
+  
+   <!-- 游戏列表 
+   游戏双开为实验性功能！请谨慎使用！ -->
+  <package name="com.tencent.tmgp.sgame"/>
+  <package name="com.PigeonGames.Phigros"/><!--Phigros-->
+  <package name="com.fantablade.icey"/><!--艾希ICEY-->
+  <package name="com.taptap"/><!--TapTap-->
+  <package name="com.taptap.game.sandbox.addon"/><!--TapPlay游戏助手-->
+  <package name="org.lichess.mobileapp"/><!--lichess-->
+  
+  <!-- 应用列表 -->
+  <package name="com.tencent.mm"/>
+  <package name="com.tencent.mobileqq"/>
+  <package name="com.facebook.katana"/>
+  <package name="com.whatsapp"/>
+  <package name="jp.naver.line.android"/>
+  <package name="com.snapchat.android"/>
+  <package name="com.facebook.orca"/>
+  
+  <!-- 以上7款应用为华为官方双开列表 -->
+  
+  <package name="tv.acfundanmaku.video"/>
+  <package name="tv.danmaku.bili"/>
+  <package name="com.twitter.android"/>
+  <package name="com.bilibili.app.in"/><!-- 哔哩哔哩Play版 -->
+  <package name="com.baidu.tieba"/>
+  <package name="com.jingdong.app.mall"/>
+  <package name="com.taobao.taobao"/>
+  <package name="com.taobao.idlefish"/><!-- 闲鱼 -->
+  <package name="com.xunmeng.pinduoduo"/>
+  <package name="com.alibaba.android.rimet"/>  <!-- 钉钉 -->
+  <package name="com.eg.android.AlipayGphone"/><!-- 支付宝 -->
+  <package name="com.sankuai.meituan"/><!-- 美团 -->
+  <package name="jp.pxv.android"/><!-- Pixiv -->
+  <package name="com.coolapk.market"/>
+  <package name="youqu.android.todesk"/>
+  <package name="com.youdao.translator"/><!-- 有道翻译 -->
+  <package name="com.oray.sunlogin"/><!-- 向日葵远程控制 -->
+  <package name="com.baidu.netdisk"/><!-- 百度网盘 -->
+  <package name="com.autonavi.minimap"/><!-- 高德地图 -->
+  <package name="com.wisedu.cpdaily"/><!-- 今日校园 -->
+  <package name="cn.missevan"/><!-- 猫耳FM -->
+  <!--  2022/10/06 -->
+  <package name="com.sina.weibo"/>
+  <package name="com.sina.weibolite"/>
+  <package name="com.sina.international"/><!-- 新浪微博轻享版 -->
+  <package name="com.sina.weibog3"/><!-- 新浪微博移动版 -->
+  <package name="com.sina.comic"/><!-- 新浪微博动漫 -->
+  <package name="com.jd.jrapp"/><!-- 京东金融 -->
+  <package name="com.chinamworld.bocmbci"/><!-- 中国银行 -->
+  <package name="cmb.pb"/><!-- 招商银行 -->
+  <package name="com.android.bankabc"/><!-- 农行掌上银行 -->
+  <package name="com.chinamworld.main"/><!-- 中国建设银行 -->
+  <package name="com.ccb.companybank"/><!-- 建行企业银行 -->
+  <package name="com.icbc"/><!-- 中国工商银行 -->
+  <package name="com.ruanmei.ithome"/><!-- IT之家 -->
+  <package name="com.tencent.qqmusic"/>
+  <package name="com.tencent.qqlive"/>
+  <package name="com.tencent.news"/>
+  <package name="com.ss.android.article.news"/><!-- 今日头条 -->
+  <package name="com.dragon.read"/><!-- 番茄免费小说 -->
+  <package name="com.qq.reader"/>
+  <package name="com.tencent.weread"/><!-- 微信读书 -->
+  <package name="com.android.comicsisland.activity"/><!--漫画岛 -->
+  <package name="com.comic.isaman"/><!-- 飒漫画 -->
+  <package name="io.legado.app.release"/><!-- 阅读 - by kunfei -->
+  <package name="com.kmxs.reader"/><!--七猫免费小说-->
+  <package name="com.douban.book.reader"/><!--豆瓣阅读-->
+  <package name="com.douban.frodo"/><!--豆瓣-->
+  <package name="com.douban.radio"/><!--豆瓣FM-->
+  <package name="com.kuaishou.nebula"/><!--快手极速版-->
+  <package name="com.smile.gifmaker"/><!--快手-->
+  <package name="com.kwai.thanos"/><!--快手概念版-->
+  <package name="com.ss.android.ugc.aweme"/><!--抖音-->
+  <package name="com.ss.android.ugc.aweme.lite"/>
+  <package name="com.ss.android.ugc.live"/><!--抖音火山版-->
+  <package name="com.ss.android.ugc.livelite"/><!--火山极速版-->
+  <package name="com.ss.android.jumanji"/><!--抖音盒子-->
+  <package name="com.xingin.xhs"/><!--小红书-->
+  <package name="com.kaola"/><!--考拉海购-->
+  <package name="com.smzdm.client.android"/><!--什么值得买-->
+  <package name="com.tmall.wireless"/><!--手机天猫-->
+  <package name="com.zhihu.android"/><!--知乎-->
+  <package name="com.zhihu.daily.android"/><!--知乎日报-->
+  <package name="com.douwan.kiwi"/><!--虎牙直播-->
+  <package name="com.netease.cloudmusic"/><!--网易云音乐-->
+  <package name="com.baidu.searchbox"/><!--百度-->
+  <package name="com.tencent.map"/><!--腾讯地图-->
+  <package name="com.vgjump.jump"/><!--jump-->
+  <package name="com.tencent.wemeet.app"/><!--腾讯会议-->
+  <package name="me.ele"/><!--饿了么-->
+  <package name="me.ele.napos"/><!--饿了么商家版-->
+  <package name="com.sankuai.meituan.takeoutnew"/><!--美团外卖-->
+  <package name="com.sankuai.meituan.dispatch.crowdsource"/><!--美团众包-->
+  <package name="com.sankuai.meituan.merchant"/><!--美团开店宝-->
+  <package name="com.sankuai.meituan.meituanwaimaibusiness"/><!--美团外卖商家版-->
+  <package name="com.sankuai.meituan.banma.errand"/><!--美团配送-->
+  <package name="tv.danmaku.bilibilihd"/><!--哔哩哔哩HD-->
+  <package name="com.zhiliaoapp.musically"/><!--TikTok-->
+  <package name="com.ximalaya.ting.android"/><!--喜马拉雅-->
+  <package name="com.chaozh.iReaderFree"/><!--掌阅-->
+  <package name="com.tencent.radio"/><!--企鹅FM-->
+  <package name="com.tencent.tim"/><!--TIM-->
+  <package name="com.youku.phone"/><!--优酷-->
+  <package name="com.ss.android.article.video"/><!--西瓜视频-->
+  <package name="com.ss.android.article.lite"/><!--今日头条极速版-->
+  <package name="com.qiyi.video"/><!--爱奇艺-->
+  <package name="com.qiyi.video.reader"/><!--爱奇艺小说-->
+  <package name="com.qiyi.video.lite"/><!--爱奇艺极速版-->
+  <package name="com.cmcc.cmvideo"/><!--咪咕视频-->
+  <package name="com.sup.android.superb"/><!--皮皮虾-->
+  <package name="cn.kuwo.player"/><!--酷我音乐-->
+  <package name="com.kugou.android"/><!--酷狗音乐-->
+  <package name="com.kugou.android.lite"/><!--酷狗音乐概念版-->
+  <package name="com.bilibili.comic"/><!--哔哩哔哩漫画-->
+  <package name="com.bilibili.app.blue"/><!--哔哩哔哩概念-->
+  <package name="com.qq.ac.android"/><!--腾讯动漫-->
+  <package name="com.dmzj.manhua"/><!--动漫之家-->
+  <package name="com.kuaikan.comic"/><!--快看-->
+  <package name="com.shizhuang.duapp"/><!--得物-->
+  <!--  2022/10/11 -->
+  <package name="bubei.tingshu"/> <!--懒人听书-->
+  <package name="com.yixia.videoeditor"/><!--秒拍-->
+  <package name="com.songheng.eastnews"/><!--东方头条-->
+  <package name="com.cainiao.wireless"/><!--菜鸟-->
+  <package name="com.wuba"/><!--58同城-->
+  <package name="com.wuba.jobone"/><!--58同城招聘商家版-->
+  <package name="com.daojia.xueyi"/><!--天鹅到家商家版-->
+  <package name="com.wubaesc"/><!--58二手车-->
+  <package name="com.wuba.zhuanzhuan"/><!--转转-->
+  <package name="com.zhuanzhuan.seller"/><!--转转专业商家版-->
+  <package name="com.zhuanzhuan.hunter"/><!--采货侠-->
+  <package name="com.huodao.hdphone"/><!--找靓机-->
+  <package name="com.ganji.android.haoche_c"/><!--瓜子二手车-->
+  <package name="com.tencent.now"/><!--腾讯NOW直播-->
+  <package name="com.jd.pingou"/><!--京喜-->
+  <package name="com.jd.jdlite"/><!--京东极速版-->
+  <package name="com.jd.app.reader"/><!--京东读书-->
+  <!--  2022/10/12 -->
+  <package name="cn.com.chsi.chsiapp"/><!--学信网-->
+  <package name="com.xunlei.downloadprovider"/><!--迅雷-->
+  <package name="com.chaoxing.mobile"/><!--学习通-->
+  <package name="com.kingsoft"/><!--金山词霸-->
+  <package name="com.lucky.luckyclient"/><!--瑞幸咖啡-->
+  <package name="com.mt.mtxx.mtxx"/><!--美图秀秀-->
+  <package name="com.xiaomi.shop"/><!--小米商城-->
+  <package name="com.masadoraandroid"/><!--魔法集市 Global-->
+  <package name="com.youdao.note"/><!--有道云笔记-->
+  <package name="com.example.administrator.searchpicturetool"/><!--搜图神器-->
+  <package name="com.mikaduki.rng"/><!--任你购-->
+  <package name="jp.co.labelgate.moratouch"/><!--mora-->
+  <!--  2022/11/02 -->
+  <package name="com.lejiaoyou.jiaoyiyou"/><!--交易游-->
+  <package name="com.tencent.mtt"/><!--QQ浏览器-->
+  <package name="com.quark.browser"/><!--夸克浏览器-->
+  <package name="com.UCMobile"/><!--UC浏览器-->
+  <package name="com.ucmobile.lite"/><!--UC浏览器极速版-->
+  <package name="com.baidu.searchbox.lite"/><!--百度极速版-->
+  <package name="com.qihoo.contents"/><!--360极速浏览器-->
+  <package name="com.youdao.dict"/><!--网易有道词典-->
+  <package name="com.gotokeep.keep"/><!--Keep-->
+  <package name="cmccwm.mobilemusic"/><!--咪咕音乐-->
+  <package name="com.tencent.start"/><!--腾讯START云游戏-->
+  <package name="com.qq.qcloud"/><!--腾讯微云-->
+  <package name="org.telegram.messenger"/><!--Telegram-->
+  <package name="com.alibaba.wireless"/><!--阿里巴巴-->
+  <package name="com.jym.mall"/><!--交易猫-->
+  <package name="com.tianyancha.skyeye"/><!--天眼查-->
+  <package name="com.cubic.autohome"/><!--汽车之家-->
+  <package name="com.p1.mobile.putong"/><!--探探-->
+  <package name="cn.soulapp.android"/><!--Soul-->
+<!--  2022/12/07 -->
+  <package name="com.tencent.wework"/><!--企业微信-->
+<!--  2023/04/19 -->
+    <package name="com.picacomic.fregata"/><!--PicACG(为什么给我反馈要加这个App啊喂！）-->
+    <package name="org.telegram.messenger"/><!--Telegram-->
+    <package name="com.nintendo.znca"/><!--Nintendo Switch Online-->
+    <package name="com.max.xiaoheihe"/><!--小黑盒-->
+    <package name="com.lucky.luckyclient"/><!--瑞幸咖啡-->
+    <package name="com.umetrip.android.msky.app"/><!--航旅纵横-->
+    <package name="com.qidian.QDReader"/><!--起点读书-->
+    <package name="com.hexin.palt.android"/><!--同花顺-->
+    <package name="com.hpbr.bosszhipin"/><!--Boss直聘-->
+    <package name="com.pwrd.steam.esports"/><!--完美世界电竞-->
+    <package name="com.iflytek.spark"/><!--讯飞星火-->
+    <package name="cn.gov.tax.its"/><!--个人所得税-->
+    <package name="com.xingjiabi.shengsheng"/><!--他趣-->
+    <package name="com.shinyv.cnr"/><!--云听-->
+    <package name="com.tencent.weishi"/><!--腾讯微视-->
+    <package name="com.tencent.podoteng"/><!--PODO漫画-->
+    <package name="com.netease.enterprise.work"/><!--网易灵犀办公-->
+    <!--  2023/09/02 -->
+</AppClone>

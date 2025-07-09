@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This list is a reference list of Services,
+		!DON'T MODIFY ANY VALUES!	-->
+<!-- Unauthorized modification will lead to verification ERROR 
+	or negative optimization of the drive	-->
+<!-- 			by Cirrest			-->
+<agc>
+device="QUALCOMM"
+cpu config=0
+cpuB config=0
+cpuC config=0
+cpuD config=0
+cpuE config=0
+cpuF config=0
+gpu config=0
+aps config=0
+iaware config=0
+touch config=iaware
+itouch config=0
+</agc>
+<!-- by Cirrest-->

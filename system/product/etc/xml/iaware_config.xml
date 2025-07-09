@@ -1,0 +1,43 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <iaware iawareversion="1.0">
+ 	<feature name="Memory">
+		<config name="PrereadFile">
+            <item pkgname="com.huawei.camera" prereadSwitch="1">
+                <file>/data/dalvik-cache/arm/product@app@HwCamera2@HwCamera2.apk@classes.vdex</file>
+				<file>/data/dalvik-cache/arm/system@priv-app@HwCamera2@HwCamera2.apk@classes.vdex</file>
+            </item>
+        </config>
+    </feature>
+	 <feature name="CPU">
+        <config name="sub_switch">
+            <item type="switch">
+                <log bit="0">0</log>
+                <freq_interactive bit="1">0</freq_interactive>
+                <scroller_boost bit="3">0</scroller_boost>
+                <key_thread_boost bit="4">1</key_thread_boost>
+                <ta_app_start_boost bit="5">1</ta_app_start_boost>
+                <vr bit="8">0</vr>
+            </item>
+        </config>
+
+        <config name="enable_pg_freq">
+            <item>
+                <enable>false</enable>
+            </item>
+        </config>
+
+        <config name="boost_key_thread_list">
+            <item process_name="system_server">
+                <thread_name>ActivityManag</thread_name>
+                <thread_name>android.fg</thread_name>
+                <thread_name>fingerprintServ</thread_name>
+                <thread_name>SensorService</thread_name>
+                <thread_name>HWExtMotionServ</thread_name>
+                <thread_name>sManagerService</thread_name>
+            </item>
+            <item process_name="com.android.incallui">
+                <thread_name>ndroid.incallui</thread_name>
+            </item>
+        </config>
+    </feature>
+</iaware>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="therm.xsl"?>
+<!--
+ * Copyright (C) 2014 Huawei Inc.
+only support these sensors
+sensor_name ,  type,  description
+ system_h   ,     0,  board high temperature area
+ pa_0       ,     1,  major pa
+ charger    ,     2,  charge ic
+ usb        ,     3,  typeC usb
+ cluster0   ,     4,  acpu little core
+ cluster1   ,     5,  acpu middle/bigger core
+ gpu        ,     6,  gpu core
+ modem      ,     7,  modem(ccpu core)
+ ddr        ,     8,  ddr
+ battery    ,     9,  battery
+ lcd        ,    10,  display screen
+ tp         ,    11,  touch screen
+ system_l   ,    12,  board low temperature area
+ rfboard    ,    13,  mobile cool area
+ wireless   ,    14,  wireless charge ic
+ pa_1       ,    15,  minor pa
+ dcxo_0     ,    16,  major crystal oscillator
+ dcxo_1     ,    17,  minor crystal oscillator
+ camera_0   ,    18,  back camera
+ camera_1   ,    19,  front camera
+ codec      ,    20,  codec
+ charger1   ,    21,  charger1
+ shell_frame,    22,  frame shell
+ hisi_ambient,   23,  ambient v1.0
+ hisi_ambient_v2,  24,  ambient v2.0+
+ ir         ,    25,  ir
+ dot        ,    26,  dot
+ flash_led  ,    27,  flash led
+ shell_front,    28,  front shell
+ shell_back ,    29,  back shell
+ usb_port   ,    30,  accurate usb
+ supply_avg ,    31,  average value of battery supply
+ supply_peak,    32,  peak value of battery supply
+ bat_0      ,    33,  battery_0 of dual-battery
+ bat_1      ,    34,  battery_1 of dual-battery
+ pa_2       ,    35,  sub pa
+ pa_3       ,    36,  sub pa
+ pa_4       ,    37,  sub pa
+ mmw_0      ,    38,  mmw major pa
+ mmw_1      ,    39,  mmw minor pa
+ shell_0    ,    40,  shell v3.0
+ shell_1    ,    41,  shell v3.0
+ shell_2    ,    42,  shell v3.0
+ shell_3    ,    43,  shell v3.0
+ shell_4    ,    44,  shell v3.0
+ shell_5    ,    45,  shell v3.0
+ cluster2   ,    46,  acpu big cpu core
+ msm-therm-adc,  47,  ap zone on Qcom platform
+ msm-therm  ,    48,  ap zone on Qcom platform
+ chg-therm-adc,  49,  charge ic on Qcom platform
+ pa-therm0  ,    50,  pa on Qcom platform
+ pa_therm0  ,    51,  pa on Qcom platform
+ mtktsAP    ,    52,  ap zone on mtk platform
+ mtkts_chargerntc,  53,  charge ic on mtk platform
+ mtktsbtsmdpa,   54,  4G pa on mtk platform
+ mtkts_usbntc,   55,  usb on mtk platform
+ mtktsbtsnrpa,   56,  5G pa on mtk plat
+ 0804 ambient parameters
+-->
+<thermal version="B35" product="MNA">
+
+<sensor_temp name="ambient" type="24" enable="false" min_temp="-30" step="5" to_celsius="1000">
+    <thresholds>75</thresholds>
+</sensor_temp>
+
+<sensor_temp name="shell_frame" type="22" enable="false" min_temp="0" step="5" to_celsius="1000">
+    <thresholds>75</thresholds>
+</sensor_temp>
+
+<sensor_temp name="shell_back" type="29" enable="false" min_temp="0" step="5" to_celsius="1000">
+    <thresholds>75</thresholds>
+</sensor_temp>
+
+<sensor_temp name="shell_front" type="28" enable="false" min_temp="0" step="5" to_celsius="1000">
+    <thresholds>75</thresholds>
+</sensor_temp>
+
+<sensor_temp name="battery" type="9" enable="false" min_temp="-20" step="5" to_celsius="1000">
+    <thresholds>70</thresholds>
+</sensor_temp>
+
+<sensor_temp name="system_h" type="0" enable="false" min_temp="-20" step="8" to_celsius="1000">
+    <thresholds>130</thresholds>
+</sensor_temp>
+
+<sensor_temp name="pa_0" type="1" enable="false" min_temp="0" step="5" to_celsius="1000">
+    <thresholds>75</thresholds>
+</sensor_temp>
+
+<sensor_temp name="charger" type="2" enable="false" min_temp="0" step="10" to_celsius="1000">
+    <thresholds>75</thresholds>
+</sensor_temp>
+
+<sensor_temp name="shell_cover" type="45" enable="false" min_temp="0" step="5" to_celsius="1000">
+    <thresholds>75</thresholds>
+</sensor_temp>
+
+<sensor_temp name="rfboard" type="13" enable="false" min_temp="-30" step="60" to_celsius="1000">
+    <thresholds>75</thresholds>
+</sensor_temp>
+
+<ambient_calculate_coef>
+    <debug>0</debug>
+    <nstate>60</nstate>
+    <ncalc>6</ncalc>
+    <nout>5</nout>
+    <deltat>5</deltat>
+    <tau>400</tau>
+    <epsilon>1</epsilon>
+    <interval>100</interval>
+    <cur_step>300</cur_step>
+    <ntc_step>2000</ntc_step>
+    <ntc_rate>75</ntc_rate>
+    <version>30</version>
+    <para_init_a>-4926.0</para_init_a>
+    <para_init_b>476.6</para_init_b>
+    <para_ac_a>-10270.0</para_ac_a>
+    <para_ac_b>-0.07498</para_ac_b>
+    <para_ac_cur>0</para_ac_cur>
+    <para_dc_a>28010.0</para_dc_a>
+    <para_dc_b>-0.0001526</para_dc_b>
+    <para_dc_cur>-0.481</para_dc_cur>
+    <temp_norm>1</temp_norm>
+    <amb_max>80000</amb_max>
+    <amb_min>-40000</amb_min>
+    <amb_range>-40000</amb_range>
+    <cur_norm>3800</cur_norm>
+    <sensor_count>4</sensor_count>
+    <sensor0 type="usb_port" alpha="-1.22" beta="-0.0698"/>
+    <sensor1 type="rfboard" alpha="2.68" beta="0.034"/>
+    <sensor2 type="system_h" alpha="0.782" beta="-0.117"/>
+    <sensor3 type="charger" alpha="-1.12" beta="0.0715"/>
+    <sensor_mapping hisi_name="bat_cur" mapped_node="/sys/class/hw_thermal/temp/shell_iba/exp_node"/>
+    <sensor_mapping hisi_name="bat_volt" mapped_node="/sys/class/hw_thermal/temp/shell_vba/exp_node"/>
+    <sensor_mapping hisi_name="bat_stat" mapped_node="/sys/class/hw_thermal/temp/shell_stat/exp_node"/>
+</ambient_calculate_coef>
+
+<shell_calculate_coef boardid="default">
+    <shell_count>7</shell_count>
+    <interval>5</interval>
+    <tsensor_min>0</tsensor_min>
+    <tsensor_max>100</tsensor_max>
+    <tsensor_step>10</tsensor_step>
+    <ntc_min>-20000</ntc_min>
+    <ntc_max>80000</ntc_max>
+    <ntc_step>2000</ntc_step>
+    <temp_step_range>1000</temp_step_range>
+    <temp_max_step_range>10000</temp_max_step_range>
+    <shell_coef0 name="shell_front"> <!-- shell_front -->
+        <bat_bias>2767</bat_bias>
+        <sensor_count>6</sensor_count>
+        <const_coef>-1462</const_coef>
+        <coef_count>7</coef_count>
+        <sensor0 name="dot" type="ntc" coef="48980,18781,25985,52630,20326,33293,39136"/>
+        <sensor1 name="ir" type="ntc" coef="3595,-22130,-17595,-13418,2626,1748,8745"/>
+        <sensor2 name="charger" type="ntc" coef="-40879,-20779,-23085,-56691,-19562,-17789,-62198"/>
+        <sensor3 name="rfboard" type="ntc" coef="262431,93341,4259,-41619,-56829,-80191,-113106"/>
+        <sensor4 name="pa_0" type="ntc" coef="-3117,-6401,5877,1479,1629,-1307,11790"/>
+        <sensor5 name="pa_1" type="ntc" coef="15381,32157,6597,8156,-2194,-19287,19632"/>
+    </shell_coef0>	
+    <shell_coef1 name="shell_frame"> <!-- shell_frame -->
+        <bat_bias>2767</bat_bias>
+        <sensor_count>6</sensor_count>
+        <const_coef>-1462</const_coef>
+        <coef_count>7</coef_count>
+        <sensor0 name="dot" type="ntc" coef="48980,18781,25985,52630,20326,33293,39136"/>
+        <sensor1 name="ir" type="ntc" coef="3595,-22130,-17595,-13418,2626,1748,8745"/>
+        <sensor2 name="charger" type="ntc" coef="-40879,-20779,-23085,-56691,-19562,-17789,-62198"/>
+        <sensor3 name="rfboard" type="ntc" coef="262431,93341,4259,-41619,-56829,-80191,-113106"/>
+        <sensor4 name="pa_0" type="ntc" coef="-3117,-6401,5877,1479,1629,-1307,11790"/>
+        <sensor5 name="pa_1" type="ntc" coef="15381,32157,6597,8156,-2194,-19287,19632"/>
+    </shell_coef1>
+    <shell_coef2 name="shell_frame"> <!-- shell_frame1 -->
+        <bat_bias>1588</bat_bias>
+        <sensor_count>6</sensor_count>
+        <const_coef>-78</const_coef>
+        <coef_count>7</coef_count>
+        <sensor0 name="dot" type="ntc" coef="49753,38997,52366,37666,201,8243,-9234"/>
+        <sensor1 name="ir" type="ntc" coef="140,-12275,-12684,-15552,-11707,-9824,-14141"/>
+        <sensor2 name="charger" type="ntc" coef="-36963,-44269,-47515,-42816,-7857,5802,-7337"/>
+        <sensor3 name="rfboard" type="ntc" coef="158941,60654,31017,-18926,-26195,-50304,-104210"/>
+        <sensor4 name="pa_0" type="ntc" coef="703,5555,5333,670,10957,-701,5159"/>
+        <sensor5 name="pa_1" type="ntc" coef="-469,11140,9043,21977,7876,-3277,48551"/>
+    </shell_coef2>
+    <shell_coef3 name="shell_back">  <!-- shell_back -->
+        <bat_bias>2862</bat_bias>
+        <sensor_count>6</sensor_count>
+        <const_coef>-500</const_coef>
+        <coef_count>7</coef_count>
+        <sensor0 name="dot" type="ntc" coef="-1264,-53364,-34021,-23564,-19254,-28517,-621"/>
+        <sensor1 name="ir" type="ntc" coef="-14030,-14308,-24224,-10809,246,1711,14840"/>
+        <sensor2 name="charger" type="ntc" coef="1133,50035,34778,19674,14743,34718,-21993"/>
+        <sensor3 name="rfboard" type="ntc" coef="265543,92046,16828,-51969,-58416,-98949,-121174"/>
+        <sensor4 name="pa_0" type="ntc" coef="15644,-1697,12465,3039,9630,13373,10224"/>
+        <sensor5 name="pa_1" type="ntc" coef="36970,17223,19742,5231,-485,-14542,-1423"/>
+    </shell_coef3>
+    <shell_coef4 name="shell_back">  <!-- shell_front -->
+        <bat_bias>2767</bat_bias>
+        <sensor_count>6</sensor_count>
+        <const_coef>-1662</const_coef>
+        <coef_count>7</coef_count>
+        <sensor0 name="dot" type="ntc" coef="48980,18781,25985,52630,20326,33293,39136"/>
+        <sensor1 name="ir" type="ntc" coef="3595,-22130,-17595,-13418,2626,1748,8745"/>
+        <sensor2 name="charger" type="ntc" coef="-40879,-20779,-23085,-56691,-19562,-17789,-62198"/>
+        <sensor3 name="rfboard" type="ntc" coef="262431,93341,4259,-41619,-56829,-80191,-113106"/>
+        <sensor4 name="pa_0" type="ntc" coef="-3117,-6401,5877,1479,1629,-1307,11790"/>
+        <sensor5 name="pa_1" type="ntc" coef="15381,32157,6597,8156,-2194,-19287,19632"/>
+    </shell_coef4>
+    <shell_coef5 name="shell_back">  <!-- shell_frame -->
+        <bat_bias>1588</bat_bias>
+        <sensor_count>6</sensor_count>
+        <const_coef>-278</const_coef>
+        <coef_count>7</coef_count>
+        <sensor0 name="dot" type="ntc" coef="49753,38997,52366,37666,201,8243,-9234"/>
+        <sensor1 name="ir" type="ntc" coef="140,-12275,-12684,-15552,-11707,-9824,-14141"/>
+        <sensor2 name="charger" type="ntc" coef="-36963,-44269,-47515,-42816,-7857,5802,-7337"/>
+        <sensor3 name="rfboard" type="ntc" coef="158941,60654,31017,-18926,-26195,-50304,-104210"/>
+        <sensor4 name="pa_0" type="ntc" coef="703,5555,5333,670,10957,-701,5159"/>
+        <sensor5 name="pa_1" type="ntc" coef="-469,11140,9043,21977,7876,-3277,48551"/>
+    </shell_coef5>
+    <shell_coef6 name="shell_frame">  <!-- shell_frame2 -->
+        <bat_bias>2862</bat_bias>
+        <sensor_count>6</sensor_count>
+        <const_coef>-500</const_coef>
+        <coef_count>7</coef_count>
+        <sensor0 name="dot" type="ntc" coef="-1264,-53364,-34021,-23564,-19254,-28517,-621"/>
+        <sensor1 name="ir" type="ntc" coef="-14030,-14308,-24224,-10809,246,1711,14840"/>
+        <sensor2 name="charger" type="ntc" coef="1133,50035,34778,19674,14743,34718,-21993"/>
+        <sensor3 name="rfboard" type="ntc" coef="265543,92046,16828,-51969,-58416,-98949,-121174"/>
+        <sensor4 name="pa_0" type="ntc" coef="15644,-1697,12465,3039,9630,13373,10224"/>
+        <sensor5 name="pa_1" type="ntc" coef="36970,17223,19742,5231,-485,-14542,-1423"/>
+    </shell_coef6>
+</shell_calculate_coef>
+</thermal>

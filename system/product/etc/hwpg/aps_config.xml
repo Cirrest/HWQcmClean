@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<aps_config>
+	<aps_property_config>
+        <property
+            key="sys.2dsdr.startratio"
+            value="1" />
+        <property
+            key="sys.2dsdr.pkgname"
+            value="*" /> <!-- use * to support all aplications of list -->
+        <property
+            key="sys.tpdoze.include"
+            value="ALL" />
+        <property
+            key="sys.tpdoze.exclude"
+            value="" />
+        <property
+            key="sys.lcd30.include"
+            value="VIDEO |EBOOK |GAME | BROWSER | EMAIL | NAVIGATION | NEWS_CLIENT | SHOP | OFFICE |com.UCMobile|com.chaozh.iReaderFree|com.chaozh.iReaderFree15|com.supercell.boombeach|com.supercell.boombeach.HUAWEI|com.tencent.clover|com.qiyi.video|com.autonavi.minimap|com.sdu.didi.psnger|com.sankuai.meituan|com.dianping.v1|ctrip.android.view|com.moji.mjweather|com.ximalaya.ting.android|com.baidu.netdisk|com.cubic.autohome|com.tencent.karaoke|com.huawei.hwireader|com.hexin.plat.android|com.baidu.BaiduMap|com.tencent.qqmusic|com.kugou.android|com.netease.cloudmusic|com.baidu.searchbox|com.sina.weibo|com.jingdong.app.mall|com.android.browser|com.ss.android.article.news|com.tencent.qqlive|com.tencent.mobileqq |com.taobao.taobao |com.ss.android.article.news|com.tencent.news |com.thestore.main |com.netease.newsreader.activity|com.ifeng.news2|com.achievo.vipshop|com.sina.news|com.alibaba.android.rimet|com.smile.gifmaker|cn.kuwo.kwmusichd|cn.kuwo.kwmusic|com.android.packageinstaller|com.eg.android.AlipayGphone|com.tencent.androidqqmail|com.nuomi|com.baidu.tieba|com.sohu.newsclient|com.netease.mail|com.netease.mobimail|com.evernote" />
+        <property
+            key="sys.lcd30.exclude"
+            value="com.qqgame.hlddz|com.tencent.tmgp.sgame|com.happyelements.AndroidAnimal.qq|com.happyelements.AndroidAnimal|com.qwh.boya.huawei|com.tencent.pao|com.tencent.tmgp.RunGame|com.huawei.hwvplayer|com.youku.phone|com.qiyi.video|com.qiyi.tv|com.tencent.mtt|com.android.browser|com.tencent.mm" />
+    </aps_property_config>
+
+	<aps_app_list version="1">
+		
+	</aps_app_list>
+</aps_config>

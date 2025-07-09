@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<policy version="1.0">
+    <cmd id="1" name="qcom_cpu_info">
+        <action>
+            <big_cpu_num>7-7</big_cpu_num>
+            <mid_cpu_num>4-6</mid_cpu_num>
+            <lit_cpu_num>0-3</lit_cpu_num>
+        </action>
+    </cmd>
+
+    <!-- set iaware default value -->
+    <cmd id="4113" name="iaware_default">
+        <action>
+            <duration_ms>0</duration_ms>
+            <gov_big_cpu_load>89</gov_big_cpu_load>
+        </action>
+    </cmd>
+
+    <!-- set iaware screen off eas value -->
+    <cmd id="4114" name="iaware_eas_screen_off">
+        <action>
+            <duration_ms>0</duration_ms>
+            <uclamp_top_app>0</uclamp_top_app>
+            <uclamp_vip>0</uclamp_vip>
+            <uclamp_graphic>0</uclamp_graphic>
+            <uclamp_foreground>0</uclamp_foreground>
+            <uclamp_boost>0</uclamp_boost>
+        </action>
+    </cmd>
+
+    <cmd id="5376" name="set_default_level"> <!--group num must be (eas:8, hmp:1)-->
+        <action>
+            <duration_ms>0</duration_ms>
+            <hmp>0</hmp>
+        </action>
+    </cmd>
+
+</policy>
