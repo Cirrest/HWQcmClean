@@ -1,6 +1,6 @@
 # HWQcmClean
 HUAWEI QUALCOMM PROCESSER CLEAN MAGISK MODULE<br>
-English Wiki：[Please click here](https://github.com/Cirrest/HWQcmClean/blob/main/README_EN.md)
+English Wiki：[Please click here](https://github.com/Cirrest/HWQcmClean/blob/main/README_EN.md)<br>
 该项目也在此发布:[Coolapk](https://www.coolapk.com/feed/62433073?s=ZTllY2FiMmIyOGUyNjFnNjg2ZWMxZGN6a1540)
 
 
