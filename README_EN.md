@@ -1,3 +1,5 @@
+中文说明:https://github.com/Cirrest/HWQcmClean/blob/main/README.md
+
 This module is designed to safely disable Huawei's PowerGenieEngine, iaware, and Aps services and scheduling configurations (not simply and roughly disabling the application, which will cause hardware voltage allocation abnormalities, system burst frame drops, and other problems), and use self-made scheduling services to shut down Huawei system scheduling from the bottom layer of the system, so that users can use third-party Snapdragon scheduling to avoid conflicts with official scheduling and cause control rights, abnormal power consumption, freezes, and other problems.
 
 Applicable: Huawei EMUI/HarmonyOS models using Qualcomm Snapdragon processor chips (excluding HarmonyNext)
