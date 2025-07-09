@@ -14,6 +14,7 @@ Please note:
 3. After using this module, the official scheduling configuration will be safely stopped, which is convenient for using third-party scheduling. Users can disable PowerGenieEngine, iaware, and Aps system applications by themselves, but some functions may be lost or other problems may occur (such as background management, sudden frame drops). Please disable them with caution.
 4. After using this module, you will lose some official optimization capabilities (such as game acceleration mode, GPU Turbo, Ai Boost, smart power saving, etc.). If necessary, please consider whether to use this module.
 5. Using this module may cause the temperature control to be disabled and the temperature control wall to be raised. Please have the ability to deal with hardware problems caused by excessive temperature of the device and be responsible.
+
 How to use:
 
 1. Use Magisk/Kitsune Mask to uninstall all the scheduling/temperature control modules you used before and restart (if any)
